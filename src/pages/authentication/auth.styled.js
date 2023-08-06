@@ -6,7 +6,7 @@ const AuthContainer = styled.div`
   background-image: url(${BackgroundImage});
   background-size: cover;
   background-position: center;
-  height: 100vh;
+  height: 110vh;
   display: flex;
   align-items: center;
   justify-content: center;
