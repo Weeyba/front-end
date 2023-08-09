@@ -8,9 +8,9 @@ const HeaderContainer = styled.header`
   top: 0;
   left: 0;
   box-shadow: 1px 0 5px -2px var(--ash);
-  background-color: ${Colors.white};
+  background-color: white;
   z-index: 1;
-  height: 100px;
+  height: 90px;
 `;
 
 const openAnimation = `
