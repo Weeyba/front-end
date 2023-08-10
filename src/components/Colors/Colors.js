@@ -2,7 +2,6 @@ export const Colors = {
   orange_color: {
     color100: "#692E01",
     color200: "#FF7B00",
-    color300: "#FAAC05",
   },
   green_color: {
     color100: "#012B17",
@@ -51,6 +50,7 @@ export const Colors = {
   },
   black: "#000000",
   white: "#ffffff",
+  transparent:"#00000000",
   lightPeach: "#FFF2EC",
   darkPeach: "#FAECEF",
   skyBlue: "#EEF9FA",

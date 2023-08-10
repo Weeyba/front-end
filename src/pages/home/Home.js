@@ -8,6 +8,14 @@ import activity from '../../assets/images/activity.png'
 import daily from '../../assets/images/daily.png'
 import welcome from '../../assets/images/welcome.png'
 import who from '../../assets/images/who.png'
+import abstractVid from '../../assets/videos/abstractVid.mp4'
+import coupon from '../../assets/images/coupon.png'
+import createAcct from '../../assets/images/createAcct.png'
+import task from '../../assets/images/task.png'
+
+
+
+
 
 
 export default function Home() {
@@ -17,10 +25,19 @@ export default function Home() {
 
 };
   return ( 
-   <main style={myStyle}>
+   <main>
 
     <div className="firstSection">
-
+    <video autoPlay loop muted>
+    
+    <source src={abstractVid} type="video/mp4" />
+    
+    </video>
+    <div className="firstSvg"></div>
+    <div className="secondSvg"></div>
+   
+    <section className="sec">
+   
       <div className="firstDiv">
       <img src={logo} alt="logo" />
        
@@ -37,6 +54,7 @@ export default function Home() {
        <img src={orb} alt="orb" />
        <img src={orb} alt="orb" />
       </div>
+      </section>
 
     </div>
     <div className="secondSection">
@@ -93,10 +111,12 @@ export default function Home() {
     </div>
 
     <div className="fourthSection">
+ 
         <h1>How to Get Started ?</h1>
         <div className="helpGrid">
 
         <div className="firstGrid">
+         <img src={coupon} alt="coupon" />
           <h4>Get a Coupon Code</h4>
           <article>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ullamcorper quam. Aliquam erat volutpat. Sed luctus metus sed felis tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse hendrerit lacinia orci, sit amet dictum odio dignissim a. Nullam euismod erat ex, non sollicitudin tellus vestibulum non.
@@ -106,6 +126,7 @@ export default function Home() {
 
 
          <div className="secondGrid">
+          <img src={createAcct} alt="createAcct" />
           <h4>Create Account</h4>
           <article>
         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ullamcorper quam. Aliquam erat volutpat. Sed luctus metus sed felis tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse hendrerit lacinia orci, sit amet dictum odio dignissim a. Nullam euismod erat ex, non sollicitudin tellus vestibulum non.
@@ -115,6 +136,7 @@ export default function Home() {
 
 
         <div className="thirdGrid">
+         <img src={task} alt="task" />
         <h4>Perform Tasks</h4>
         <article>
       Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ullamcorper quam. Aliquam erat volutpat. Sed luctus metus sed felis tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse hendrerit lacinia orci, sit amet dictum odio dignissim a. Nullam euismod erat ex, non sollicitudin tellus vestibulum non.
@@ -132,12 +154,9 @@ export default function Home() {
 
 
         </div>
+      
     </div>
    
-      <footer>
-      
-      
-      </footer>
    
    </main>
   )

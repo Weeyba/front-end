@@ -1,15 +1,18 @@
 import { css, styled } from "styled-components";
 import { Colors } from "../Colors/Colors";
 
+
 const HeaderContainer = styled.header`
   padding: 20px;
+  fontWeight:bold;
+  fontFamily:Poppins;
   width: 100%;
   position: fixed;
   top: 0;
   left: 0;
   box-shadow: 1px 0 5px -2px var(--ash);
   background-color: white;
-  z-index: 1;
+  z-index: 10;
   height: 90px;
 `;
 
