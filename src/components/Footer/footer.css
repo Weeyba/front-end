@@ -2,7 +2,7 @@
 
 .footer{
  width: 100%;
- height:50vh;
+ height:max-content;
  color: white;
  margin: 0 auto;
  padding: 0 auto;
