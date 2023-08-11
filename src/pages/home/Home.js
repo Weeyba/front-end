@@ -136,8 +136,7 @@ export default function Home() {
         <h4>Perform Tasks</h4>
         <article>
         With your account set up, it's time to dive into the heart of Weeyba's transformative experience. As you begin engaging with various tasks and activities, you'll start earning rewards for every meaningful interaction. Whether it's sharing advert posts for 200 Naira or spreading the word about Weeyba for 300 Naira, each action you take contributes to your earnings and the collective impact we're making.
-        <br />
-        But the journey doesn't stop there. We believe in the power of community, so invite your friends to join the movement. As you introduce them to Weeyba, you're not only expanding our family but also earning even more through our referral program. Your efforts have the potential to create a ripple effect, amplifying the positive change we're driving.
+      
         <br />
         So, from performing tasks that matter to inviting friends to join you, every action you take on Weeyba contributes to your financial growth and the larger goal of elevating lives. Welcome to a world where your online presence has real-world significance. Let's earn, engage, and uplift together on Weeyba!
        </article>

@@ -242,6 +242,7 @@ left:5%;
      font-weight: 800;
      font-size:2rem;
      z-index: 2;
+     color: darkorange;
    }
    main .thirdSection .infoGrid{
     display: flex;
@@ -309,15 +310,15 @@ left:5%;
     display: flex;
     flex-direction: row;
     align-items: center;
-    flex-wrap: wrap;
-    gap: 70px;
-   
+    flex-wrap: no-wrap;
+    gap: 10px;
+   width: 95%;
     margin-top: 5%;
     justify-content: space-evenly;
 
    }
    main .fourthSection .helpGrid div{
-    width: 30%;
+    width: 40%;
     height: auto;
     color: rgb(0, 0, 0);
     padding: 3%;
