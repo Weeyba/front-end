@@ -34,7 +34,7 @@ main .firstSection .firstSvg{
  width: 800px;
  height:800px;
  border-radius:50%;
- background-color:#692E01;
+ background-color:orange;
 }
 
 main .firstSection .secondSvg{
@@ -45,7 +45,7 @@ main .firstSection .secondSvg{
   width: 800px;
  height:800px;
  border-radius:50%;
- background-color:rgb(1, 56, 1);
+ background-color:white;
 }
 
 main .firstSection .thirdSvg{
@@ -83,8 +83,9 @@ width: 40%;
 height: 100%;
 display: flex;
 flex-direction: column;
-align-items: left;
+align-items: center;
 z-index: inherit;
+gap: 2%;
 justify-content: center;
 
 }
@@ -95,7 +96,7 @@ main .firstSection .firstDiv p{
 }
 
 main .firstSection .firstDiv h1{
- font-size: 50px;
+ font-size: 25px;
  font-weight: 800;
  line-height: 100%;
  color: white;
@@ -106,14 +107,15 @@ main .firstSection .firstDiv h2{
  height: max-content;
  padding: 10px;
  margin-top: 10px;
- border-radius:10px;
+ border-radius:15px;
  background-color:orange;
  color: white;
+ font-size:100%;
 }
 
 
 main .firstSection .firstDiv img{
- width: 40%;
+ width: 60%;
  height: auto;
 }
 
@@ -183,7 +185,13 @@ left:5%;
    
    main .secondSection article h1{
     font-size: 2rem;
+    color: darkorange;
     font-weight: 700;
+   }
+   
+   main .secondSection article h1::first-letter{
+    font-size: 2rem;
+    font-weight: 900;
    }
    main .secondSection:last-child{
     width: auto;
@@ -325,6 +333,11 @@ left:5%;
     width: 40px;
     height: 40px;
    }
+   main .fourthSection .helpGrid h4{
+      font-weight: 650;
+    font-size:1.5rem;
+    margin-bottom: 5px;
+   }
 
 
 
@@ -341,7 +354,7 @@ left:5%;
   main .firstSection .firstDiv{
    align-items :center;
    justify-content: center;
-   width: 90%;
+   width: 100%;
   }
   main .firstSection .firstSvg, .secondSvg{
    display:none;
@@ -356,11 +369,13 @@ left:5%;
   }
   main .firstSection .secondDiv{
    display: none;
+   width: 98%;
   
 
   }
   main .secondSection article{
    margin: 0 auto;
+   width: 100%;
   }
   main .secondSection{
    height:max-content;
@@ -381,6 +396,7 @@ left:5%;
   }
   main .thirdSection .infoGrid{
    display: flex;
+   width: 98%;
    flex-direction: column;
    align-items: center;
    justify-content: center;
@@ -391,7 +407,7 @@ left:5%;
   }
   
   main .thirdSection .infoGrid div{
-   width: 80%;
+   width: 100%;
   }
   main .fourthSection{
    width: 100%;
@@ -399,13 +415,14 @@ left:5%;
 
   main .fourthSection .helpGrid{
    display: flex;
+   width: 98%;
    flex-direction:column;
    align-items: center;
    justify-content: center;
   }
   
   main .fourthSection .helpGrid div{
-   width: 80%;
+   width: 98%;
 
   }
  

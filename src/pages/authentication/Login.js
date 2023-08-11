@@ -37,8 +37,26 @@ export default function Login() {
     event.preventDefault();
   };
 
+
+    const arrowStyle={
+      width:'30px',
+      height:'30px',
+      textAlign:'center',
+      fontSize:'150%',
+      position:'fixed',
+      top:'5%',
+      display:'flex',
+      alignItems:'center',
+      placeContent:'center',
+      left:'5%',
+      borderRadius:'50%',    
+      backgroundColor:'white',
+      color:'black',
+  }
+   
   return (
     <AuthContainer>
+    <p style={arrowStyle}> &#8592;</p>
       <AuthBodyContainer>
         <div className="authHeading">
           <h2>Welcome, please sign in</h2>
@@ -117,4 +135,4 @@ export default function Login() {
       </AuthBodyContainer>
     </AuthContainer>
   );
-}
+} 

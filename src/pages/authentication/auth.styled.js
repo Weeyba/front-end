@@ -7,6 +7,7 @@ const AuthContainer = styled.div`
   background-size: cover;
   background-position: center;
   height: 110vh;
+  position:relative;
   display: flex;
   align-items: center;
   justify-content: center;

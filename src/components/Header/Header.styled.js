@@ -46,6 +46,7 @@ const MenuListContainer = styled.ul`
   flex-direction: column;
   padding: 0;
   margin: 0;
+   fontWeight:bold;
   position: fixed;
   top: 100px;
   left: 0;
@@ -71,6 +72,7 @@ const MenuListItem = styled.li`
     text-decoration: none;
     color: ${Colors.white};
     font-size: 18px;
+     fontWeight:bold;
 
     &:hover {
       color: ${Colors.orange_color.color200};
@@ -85,6 +87,7 @@ const HamburgerContainer = styled.div`
   flex-direction: column;
   justify-content: space-between;
   width: 30px;
+   fontWeight:bold;
   height: 20px;
   cursor: pointer;
 `;
@@ -101,6 +104,7 @@ const NavContainer = styled.nav`
   display: flex;
   margin: 0 auto;
   align-items: center;
+   fontWeight:bold;
 
   div.Links {
     display: flex;

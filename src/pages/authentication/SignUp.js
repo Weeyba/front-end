@@ -57,8 +57,28 @@ export default function SignUp() {
   const handleMouseDownPassword = (event) => {
     event.preventDefault();
   };
+
+
+
+    const arrowStyle={
+      width:'30px',
+      height:'30px',
+      textAlign:'center',
+        fontSize:'150%',
+      position:'fixed',
+      top:'5%',
+      display:'flex',
+      alignItems:'center',
+      placeContent:'center',
+      left:'5%',
+      borderRadius:'50%',
+      backgroundColor:'white',
+      color:'black',
+  }
+  
   return (
     <AuthContainer>
+    <p style={arrowStyle}> &#8592;</p>
       <AuthBodyContainer>
         <div className="authHeading">
           <h2>Let's get you started</h2>
@@ -211,3 +231,4 @@ export default function SignUp() {
     </AuthContainer>
   );
 }
+  

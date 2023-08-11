@@ -33,27 +33,21 @@ export default function Home() {
     <source src={abstractVid} type="video/mp4" />
     
     </video>
-    <div className="firstSvg"></div>
-    <div className="secondSvg"></div>
+ 
    
     <section className="sec">
    
       <div className="firstDiv">
       <img src={logo} alt="logo" />
        
-        <h1>Earn as you <br /> Engage...</h1> 
+        <h1>Earn as you Engage...</h1> 
         <p>Invite Friends and Earn</p>
-        <h2>Get Started</h2>
+        <h2>Get Started &#8594; </h2>
     
           
           
       </div>
 
-      <div className="secondDiv">
-       <img src={man} alt="man" />
-       <img src={orb} alt="orb" />
-       <img src={orb} alt="orb" />
-      </div>
       </section>
 
     </div>
@@ -62,15 +56,14 @@ export default function Home() {
     
     <article>
     <h1>Who Are WE ?</h1>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis uamet dictum odio dignissim a. Nullam euismod erat ex, non sollicitudin tellus vestibulum non.m ipsum dolor sit amet, consectetur adipiscing elit. Sed quis uamet dictum odio dignissim a. Nullam euismod erat ex, non sollicitudin tellus vestibulum non.
-        ibulum non.m ipsum dolor sit amet, consectetur adipiscing elit. Sed quis uamet dictum odio dignissim a. Nullam euismod erat ex, non sollicitudin tellus vestibulum non.
+    Welcome to Weeyba, the innovative online platform that not only rewards users for their web activities but also drives a profound impact on global poverty. At Weeyba, we're on a mission to reshape online engagement by turning every click, share, and interaction into a catalyst for positive change. Our vision is to empower individuals while simultaneously uplifting communities out of poverty through partnerships with NGOs and charitable organizations. By joining Weeyba, you become part of a movement that leverages digital actions for real-world transformation. Transparent and accountable, Weeyba allows you to track the tangible effects of your engagement, making sure that every virtual interaction contributes to concrete progress. Together, we're redefining online engagement to create a world where every click matters and poverty is no longer an insurmountable barrier. Join Weeyba today and be a driving force in the journey to elevate lives through the power of the internet.
     
     </article>
     <img src={who} alt="who" />
     </div>
 
     <div className="thirdSection">
-         <h3>Ways To earn.</h3>
+         <h3>Ways To Earn.</h3>
          <div className="firstSvg"></div>
          <div className="secondSvg"></div>
     <div className="infoGrid">
@@ -80,7 +73,13 @@ export default function Home() {
                   <h4>Affiliate Earnings.</h4> 
 
               <article>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ullamcorper quam. Aliquam erat volutpat. Sed luctus metus sed felis tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse hendrerit lacinia orci, sit amet dictum odio dignissim a. Nullam euismod erat ex, non sollicitudin tellus vestibulum non.
+              Unlock a world of earning potential with Weeyba's affiliate program. Our platform not only allows you to engage meaningfully and contribute to poverty alleviation but also rewards you for bringing others into the fold. By sharing the Weeyba experience with your network, you can earn a substantial income through our affiliate program. As your referrals actively participate and engage on Weeyba, you'll receive a portion of their earnings, creating a mutually beneficial cycle of engagement and empowerment. Joining our affiliate program means not only transforming lives through online activities but also opening doors to financial growth and stability. Start multiplying your impact today by becoming a Weeyba affiliate and championing a new era of meaningful online engagement.
+              <br />
+                          when you register on the Weeyba website with a nominal fee of 4500 Naira, you'll not only gain access to all the incredible opportunities our platform offers but also receive a generous welcome bonus of 2000 Naira! This bonus is our way of showing our appreciation for you joining our platform and becoming a part of our community. But that's not all – just by logging in daily, you'll earn an additional 300 Naira. It's a great kickstart to your journey of earning rewards while making a positive impact through your online activities.
+                          <br />
+            And that's not the only way to earn. Introducing our affiliate program – a fantastic avenue to multiply your earnings. With our referral bonus, you can earn a remarkable 3500 Naira for every direct referral. But the impact doesn't stop there. For every indirect first-generation referral, you earn 300 Naira, and for indirect second-generation referrals, you earn 200 Naira. By simply inviting your friends and network, you're not just growing your earnings – you're also growing our community and driving positive change.
+            <br />
+            So, by investing just 4500 Naira, you not only open the door to the welcome bonus and daily opportunities but also a potential cascade of earnings through our affiliate program. Welcome to Weeyba, and let's embark on this exciting adventure together!
               </article>
             </div>
 
@@ -88,7 +87,7 @@ export default function Home() {
             <img src={daily} alt="daily" />
                   <h4>Daily Login Bonus</h4> 
                    <article>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ullamcorper quam. Aliquam erat volutpat. Sed luctus metus sed felis tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse hendrerit lacinia orci, sit amet dictum odio dignissim a. Nullam euismod erat ex, non sollicitudin tellus vestibulum non.
+                   At Weeyba, we believe in rewarding your dedication. That's why, with each daily login, you'll earn a fantastic amount of 300 Naira. It's our way of recognizing your consistent engagement and appreciating your active participation on our platform. So, just by logging in daily, you're not only staying connected but also boosting your earnings. Combine this with our generous welcome bonus of 2000 Naira when you register with a nominal fee of 4500 Naira, and you're on your way to an exciting journey of earning while making a positive impact. Join us today on Weeyba, and let your daily interactions lead to both personal growth and meaningful change!
               </article>
             </div>
 
@@ -96,7 +95,7 @@ export default function Home() {
             <img src={welcome} alt="welcome" />
                   <h4>Welcome Bonus.</h4> 
                    <article>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ullamcorper quam. Aliquam erat volutpat. Sed luctus metus sed felis tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse hendrerit lacinia orci, sit amet dictum odio dignissim a. Nullam euismod erat ex, non sollicitudin tellus vestibulum non.
+                   when you register on the Weeyba website with a nominal fee of 4500 Naira, you'll not only gain access to all the incredible opportunities our platform offers but also receive a generous welcome bonus of 2000 Naira! This bonus is our way of showing our appreciation for you joining our platform and becoming a part of our community. It's a great kickstart to your journey of earning rewards while making a positive impact through your online activities. So, by investing just 4500 Naira, you open the door to both the welcome bonus and a world of possibilities. Welcome to Weeyba, and let's embark on this exciting adventure together!
               </article>
             </div>
 
@@ -104,7 +103,7 @@ export default function Home() {
            <img src={activity} alt="activity" />
               <h4>Activities Earnings.</h4> 
                <article>
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ullamcorper quam. Aliquam erat volutpat. Sed luctus metus sed felis tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse hendrerit lacinia orci, sit amet dictum odio dignissim a. Nullam euismod erat ex, non sollicitudin tellus vestibulum non.
+               Sharing is caring – and at Weeyba, it's also rewarding! When you share our advert posts, you're not only spreading the word but also earning yourself a fantastic reward of 200 Naira. But that's not all – for every Weeyba post you share, you'll be adding a generous 300 Naira to your earnings. It's a win-win situation: you're amplifying our message while boosting your income. Your actions have a tangible impact, both for you and the causes we support. So, let's share, earn, and make a difference together on Weeyba – where every share counts, both in value and purpose.
               </article>
            </div>    
     </div>
@@ -112,14 +111,15 @@ export default function Home() {
 
     <div className="fourthSection">
  
-        <h1>How to Get Started ?</h1>
+        <h1>How To Get Started ?</h1>
         <div className="helpGrid">
 
         <div className="firstGrid">
          <img src={coupon} alt="coupon" />
           <h4>Get a Coupon Code</h4>
           <article>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ullamcorper quam. Aliquam erat volutpat. Sed luctus metus sed felis tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse hendrerit lacinia orci, sit amet dictum odio dignissim a. Nullam euismod erat ex, non sollicitudin tellus vestibulum non.
+              
+          To become a valued member of the Weeyba community, all it takes is a simple step. Secure your entry by obtaining a coupon code from our verified vendors. This code, priced at 4500 Naira, will provide you with access to the wealth of opportunities and rewards that await you on our platform. It's an investment in your journey to earn while contributing to positive change. So, take that step today, acquire your coupon code, and unlock the door to a world of possibilities on Weeyba. Join us in shaping a brighter future, one interaction at a time.
          </article>
         </div>
 
@@ -129,7 +129,7 @@ export default function Home() {
           <img src={createAcct} alt="createAcct" />
           <h4>Create Account</h4>
           <article>
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ullamcorper quam. Aliquam erat volutpat. Sed luctus metus sed felis tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse hendrerit lacinia orci, sit amet dictum odio dignissim a. Nullam euismod erat ex, non sollicitudin tellus vestibulum non.
+          Once you've obtained your 4500 Naira coupon code from our verified vendors, you're ready to embark on your Weeyba journey. The next step is to create your account, and our signup page makes this process seamless. Provide your essential details, and in no time, you'll have access to a world of meaningful engagement and earning opportunities. Your account is your gateway to making a positive impact while earning rewards, so let's get started. Join us on Weeyba and let your online actions lead to real-world change and financial growth.
          </article>
         </div>
 
@@ -139,7 +139,11 @@ export default function Home() {
          <img src={task} alt="task" />
         <h4>Perform Tasks</h4>
         <article>
-      Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed quis ullamcorper quam. Aliquam erat volutpat. Sed luctus metus sed felis tristique senectus et netus et malesuada fames ac turpis egestas. Suspendisse hendrerit lacinia orci, sit amet dictum odio dignissim a. Nullam euismod erat ex, non sollicitudin tellus vestibulum non.
+        With your account set up, it's time to dive into the heart of Weeyba's transformative experience. As you begin engaging with various tasks and activities, you'll start earning rewards for every meaningful interaction. Whether it's sharing advert posts for 200 Naira or spreading the word about Weeyba for 300 Naira, each action you take contributes to your earnings and the collective impact we're making.
+        <br />
+        But the journey doesn't stop there. We believe in the power of community, so invite your friends to join the movement. As you introduce them to Weeyba, you're not only expanding our family but also earning even more through our referral program. Your efforts have the potential to create a ripple effect, amplifying the positive change we're driving.
+        <br />
+        So, from performing tasks that matter to inviting friends to join you, every action you take on Weeyba contributes to your financial growth and the larger goal of elevating lives. Welcome to a world where your online presence has real-world significance. Let's earn, engage, and uplift together on Weeyba!
        </article>
       </div>
          
