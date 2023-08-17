@@ -30,9 +30,9 @@ export default function Header() {
         </a>
 
         <div className="Links">
-          <a href="#">Home</a>
-          <a href="#">About</a>
-          <a href="#">Contact us</a>
+          <a href="/">Home</a>
+          <a href="/about">About</a>
+          <a href="/contact-us">Contact us</a>
           <a href="/login">Sign in</a>
           <a href="/SignUp">Sign Up</a>
         </div>

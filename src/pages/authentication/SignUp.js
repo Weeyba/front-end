@@ -6,6 +6,7 @@ import FormControlLabel from "@mui/material/FormControlLabel";
 import { Formik } from "formik";
 import React, { useState } from "react";
 import * as yup from "yup";
+import BrandLogo from "../../assets/images/Logo.png";
 import TextInput from "../../components/Input/TextInput";
 import { CustomButton } from "./Login";
 import { AuthBodyContainer, AuthContainer } from "./auth.styled";
@@ -23,6 +24,10 @@ const signUpSchema = yup.object().shape({
     .required("Please enter your Last Name")
     .label("Last Name"),
   email: yup.string().required().label("Email").email(),
+  userName: yup
+    .string()
+    .required("Please enter your prefered Username")
+    .label("Username"),
   phone: yup
     .string()
     .matches(phoneRegExp, "Phone number is not valid")
@@ -58,28 +63,38 @@ export default function SignUp() {
     event.preventDefault();
   };
 
+  const arrowStyle = {
+    width: "30px",
+    height: "30px",
+    textAlign: "center",
+    fontSize: "150%",
+    position: "fixed",
+    top: "5%",
+    display: "flex",
+    alignItems: "center",
+    placeContent: "center",
+    left: "5%",
+    borderRadius: "50%",
+    backgroundColor: "white",
+    color: "black",
+    cursor: "pointer",
+  };
 
-
-    const arrowStyle={
-      width:'30px',
-      height:'30px',
-      textAlign:'center',
-        fontSize:'150%',
-      position:'fixed',
-      top:'5%',
-      display:'flex',
-      alignItems:'center',
-      placeContent:'center',
-      left:'5%',
-      borderRadius:'50%',
-      backgroundColor:'white',
-      color:'black',
-  }
-  
   return (
     <AuthContainer>
-    <p style={arrowStyle}> &#8592;</p>
+      <p onClick={() => window.history.back()} style={arrowStyle}>
+        {" "}
+        &#8592;
+      </p>
       <AuthBodyContainer>
+        <div className="brandLogo">
+          <img
+            aria-label="Weeyba brand logo"
+            style={{ width: 87, height: 50 }}
+            src={BrandLogo}
+            alt="Weeyba brand logo"
+          />
+        </div>
         <div className="authHeading">
           <h2>Let's get you started</h2>
         </div>
@@ -89,6 +104,7 @@ export default function SignUp() {
               firstName: "",
               lastName: "",
               email: "",
+              userName: "",
               password: "",
               phone: "",
               couponCode: "",
@@ -128,6 +144,15 @@ export default function SignUp() {
                     formikKey="email"
                     value={formikProps.values.email}
                     type="email"
+                  />
+                  <TextInput
+                    id="userName"
+                    label="Username"
+                    placeholder="johndoe223"
+                    formikProps={formikProps}
+                    formikKey="userName"
+                    value={formikProps.values.userName}
+                    type="text"
                   />
                   <TextInput
                     id="phone"
@@ -231,4 +256,3 @@ export default function SignUp() {
     </AuthContainer>
   );
 }
-  

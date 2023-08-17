@@ -6,7 +6,7 @@ const AuthContainer = styled.div`
   background-image: url(${BackgroundImage});
   background-size: cover;
   background-position: center;
-  height: 110vh;
+  height: 124vh;
   position:relative;
   display: flex;
   align-items: center;
@@ -20,9 +20,16 @@ const AuthBodyContainer = styled.div`
   width: 500px;
   border-radius: 10px;
   padding: 20px;
+  
+  div.brandLogo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
   div.authHeading {
     margin: 20px 0;
+    text-align: center;
     h2 {
       font-size: 20px;
       color: ${Colors.neutral_color.color900};
@@ -40,7 +47,7 @@ const AuthBodyContainer = styled.div`
       gap: 20px;
       a {
         text-decoration: none;
-        color: ${Colors.orange_color.color300};
+        color: ${Colors.orange_color.color200};
         font-size: 16px;
       }
     }
@@ -50,7 +57,7 @@ const AuthBodyContainer = styled.div`
       gap: 5px;
       a {
         text-decoration: none;
-        color: ${Colors.orange_color.color300};
+        color: ${Colors.orange_color.color200};
         font-size: 16px;
       }
     }

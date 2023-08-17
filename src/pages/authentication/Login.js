@@ -7,6 +7,7 @@ import TextInput from "../../components/Input/TextInput";
 import { AuthBodyContainer, AuthContainer } from "./auth.styled";
 import styled from "@emotion/styled";
 import { Colors } from "../../components/Colors/Colors";
+import BrandLogo from "../../assets/images/Logo.png"
 
 const loginSchema = yup.object().shape({
   email: yup.string().required().label("Email").email(),
@@ -19,7 +20,7 @@ const loginSchema = yup.object().shape({
 
 export const CustomButton = styled(Button)(({ theme }) => ({
   color: Colors.white,
-  backgroundColor: Colors.orange_color.color300,
+  backgroundColor: Colors.orange_color.color200,
   width: "100%",
   '&:hover': {
     backgroundColor: Colors.orange_color.color200,
@@ -28,6 +29,7 @@ export const CustomButton = styled(Button)(({ theme }) => ({
 
 export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
+
 
   const handleClickShowPassword = () => {
     setShowPassword((prev) => !prev);
@@ -52,12 +54,21 @@ export default function Login() {
       borderRadius:'50%',    
       backgroundColor:'white',
       color:'black',
+      cursor: "pointer"
   }
    
   return (
     <AuthContainer>
-    <p style={arrowStyle}> &#8592;</p>
+    <p onClick={()=>window.history.back()} style={arrowStyle}> &#8592;</p>
       <AuthBodyContainer>
+        <div className="brandLogo">
+        <img
+            aria-label="Weeyba brand logo"
+            style={{ width: 87, height: 50 }}
+            src={BrandLogo}
+            alt="Weeyba brand logo"
+          />
+        </div>
         <div className="authHeading">
           <h2>Welcome, please sign in</h2>
         </div>

@@ -3,7 +3,7 @@ import { Colors } from "../Colors/Colors";
 
 
 const HeaderContainer = styled.header`
-  padding: 20px;
+  padding: 20px 70px;
   fontWeight:bold;
   fontFamily:Poppins;
   width: 100%;
@@ -14,6 +14,10 @@ const HeaderContainer = styled.header`
   background-color: white;
   z-index: 10;
   height: 90px;
+
+  @media(max-width: 768px) {
+    padding: 20px 30px;
+  }
 `;
 
 const openAnimation = `
