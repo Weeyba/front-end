@@ -8,7 +8,10 @@ import createAcct from "../../assets/images/createAcct.png";
 import daily from "../../assets/images/daily.png";
 import task from "../../assets/images/task.png";
 import welcome from "../../assets/images/welcome.png";
-import who from "../../assets/images/who.png";
+import firstVec from "../../assets/images/affiliatevec.png";
+import secondVec from "../../assets/images/dailyvec.jpg";
+import thirdVec from "../../assets/images/activitiesvec.png";
+import fourthVec from "../../assets/images/welcomevec.png";
 import abstractVid from "../../assets/videos/abstractVid.mp4";
 
 export default function Home() {
@@ -32,68 +35,56 @@ export default function Home() {
           </div>
         </section>
       </div>
-      <div className="secondSection">
-        <div className="firstSvg"></div>
-
-        <article>
-          <h1>Who Are WE ?</h1>
-          Welcome to Weeyba, the innovative online platform that not only
-          rewards users for their web activities but also drives a profound
-          impact on global poverty. At Weeyba, we're on a mission to reshape
-          online engagement by turning every click, share, and interaction into
-          a catalyst for positive change. Our vision is to empower individuals
-          while simultaneously uplifting communities out of poverty through
-          partnerships with NGOs and charitable organizations. By joining
-          Weeyba, you become part of a movement that leverages digital actions
-          for real-world transformation. Transparent and accountable, Weeyba
-          allows you to track the tangible effects of your engagement, making
-          sure that every virtual interaction contributes to concrete progress.
-          Together, we're redefining online engagement to create a world where
-          every click matters and poverty is no longer an insurmountable
-          barrier. Join Weeyba today and be a driving force in the journey to
-          elevate lives through the power of the internet.
-        </article>
-        <img src={who} alt="who" />
-      </div>
-
       <div className="thirdSection">
         <h3>Ways To Earn.</h3>
         <div className="firstSvg"></div>
         <div className="secondSvg"></div>
         <div className="infoGrid">
           <div className="firstGrid">
+          <div>
+            <div className="firstDiv">
             <img src={affiliate} alt="affiliate" />
             <h4>Affiliate Earnings.</h4>
-
+            </div>
             <article>
-              Unlock a world of earning potential with Weeyba's affiliate
-              program. Our platform not only allows you to engage meaningfully
-              and contribute to poverty alleviation but also rewards you for
-              bringing others into the fold. By sharing the Weeyba experience
-              with your network, you can earn a substantial income through our
-              affiliate program. As your referrals actively participate and
-              engage on Weeyba, you'll receive a portion of their earnings,
-              creating a mutually beneficial cycle of engagement and
-              empowerment. Joining our affiliate program means not only
-              transforming lives through online activities but also opening
-              doors to financial growth and stability. Start multiplying your
-              impact today by becoming a Weeyba affiliate and championing a new
-              era of meaningful online engagement
-              <br />
-              Our affiliate program – a fantastic avenue to multiply your
-              earnings. With our referral bonus, you can earn a remarkable 3500
-              Naira for every direct referral. But the impact doesn't stop
-              there. For every indirect first-generation referral, you earn 300
-              Naira, and for indirect second-generation referrals, you earn 200
-              Naira. By simply inviting your friends and network, you're not
-              just growing your earnings – you're also growing our community and
-              driving positive change.
-            </article>
+            Unlock a world of earning potential with Weeyba's affiliate
+            program. Our platform not only allows you to engage meaningfully
+            and contribute to poverty alleviation but also rewards you for
+            bringing others into the fold. By sharing the Weeyba experience
+            with your network, you can earn a substantial income through our
+            affiliate program. As your referrals actively participate and
+            engage on Weeyba, you'll receive a portion of their earnings,
+            creating a mutually beneficial cycle of engagement and
+            empowerment. Joining our affiliate program means not only
+            transforming lives through online activities but also opening
+            doors to financial growth and stability. Start multiplying your
+            impact today by becoming a Weeyba affiliate and championing a new
+            era of meaningful online engagement
+            <br />
+            Our affiliate program – a fantastic avenue to multiply your
+            earnings. With our referral bonus, you can earn a remarkable 3500
+            Naira for every direct referral. But the impact doesn't stop
+            there. For every indirect first-generation referral, you earn 300
+            Naira, and for indirect second-generation referrals, you earn 200
+            Naira. By simply inviting your friends and network, you're not
+            just growing your earnings – you're also growing our community and
+            driving positive change.
+          </article>
+            </div>
+              <div className="imgCon">
+              
+              <img src={firstVec} alt="firstVec" />
+              </div>
+       
           </div>
 
           <div className="secondGrid">
+          <div>
+          <div className="firstDiv">
             <img src={daily} alt="daily" />
             <h4>Daily Login Bonus</h4>
+            </div>
+
             <article>
               At Weeyba, we believe in rewarding your dedication. That's why,
               with each daily login, you'll earn a fantastic amount of 300
@@ -107,11 +98,18 @@ export default function Home() {
               your daily interactions lead to both personal growth and
               meaningful change!
             </article>
+            </div>
+            <div className="imgCon">
+            <img src={secondVec} alt="firstVec" />
+            
+            </div>
           </div>
 
           <div className="thirdGrid">
+            <div>
+            <div className="firstDiv">
             <img src={welcome} alt="welcome" />
-            <h4>Welcome Bonus.</h4>
+            <h4>Welcome Bonus.</h4></div>
             <article>
               when you register on the Weeyba website with a nominal fee of 4500
               Naira, you'll not only gain access to all the incredible
@@ -124,11 +122,17 @@ export default function Home() {
               both the welcome bonus and a world of possibilities. Welcome to
               Weeyba, and let's embark on this exciting adventure together!
             </article>
+            </div>
+            <div className="imgCon">
+             <img src={thirdVec} alt="firstVec" />
+             </div>
           </div>
 
           <div className="fourthGrid">
+          <div>
+          <div className="firstDiv">
             <img src={activity} alt="activity" />
-            <h4>Activities Earnings.</h4>
+            <h4>Activities Earnings.</h4></div>
             <article>
               Sharing is caring – and at Weeyba, it's also rewarding! When you
               share our advert posts, you're not only spreading the word but
@@ -140,6 +144,9 @@ export default function Home() {
               support. So, let's share, earn, and make a difference together on
               Weeyba – where every share counts, both in value and purpose.
             </article>
+            </div>
+            <div>
+            <img src={fourthVec} alt="firstVec" /> </div>
           </div>
         </div>
       </div>

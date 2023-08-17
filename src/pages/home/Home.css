@@ -186,16 +186,13 @@ main .secondSection:last-child {
 main .thirdSection {
   width: 100%;
   height: max-content;
-
   background-color: white;
-
   margin: 0px 0px 0px 0px;
-  padding: 0 auto;
   display: flex;
   position: relative;
   flex-direction: column;
   align-items: center;
-  padding: 5%;
+  padding: 3%;
   overflow: hidden;
   justify-content: center;
 }
@@ -224,39 +221,175 @@ main .thirdSection .secondSvg {
 
 main .thirdSection > h3 {
   font-weight: 800;
-  font-size: 2rem;
+  font-size: 2.5rem;
   z-index: 2;
   color: darkorange;
 }
-main .thirdSection .infoGrid {
+main .thirdSection .infoGrid{
+  width: 100%;
+  height: max-content;
+  padding: 0 auto;
+  margin: 0 auto;
   display: flex;
-  flex-direction: row;
   align-items: center;
-  flex-wrap: wrap;
-  gap: 70px;
-  z-index: 2;
-  margin-top: 5%;
-  justify-content: space-evenly;
-}
-main .thirdSection .infoGrid div {
-  width: 40%;
-  height: auto;
-  display: flex;
-  flex-direction: column;
-  align-items: left;
   justify-content: center;
+  flex-direction: column;
 }
 
-main .thirdSection .infoGrid h4 {
-  font-weight: 650;
-  font-size: 1.5rem;
-  margin-bottom: 5px;
+main .thirdSection .infoGrid img[alt*="firstVec"]{
+  width: 90%;
+  height: auto;
+  object-fit: contain;
+}
+main .thirdSection .infoGrid h4{
+  font-size: 150%;
 }
 
-main .thirdSection .infoGrid img {
-  width: 40px;
-  height: 40px;
+main .thirdSection .infoGrid article{
+  line-height: 180%;
 }
+main .thirdSection .infoGrid .firstGrid{
+  width: 100%;
+  height: max-content;
+  display: flex;
+
+  align-items: center;
+  gap: 13%;
+  justify-content: space-evenly;
+
+}
+main .thirdSection .infoGrid .firstGrid div{
+    width: 40%;
+   
+    height:max-content;
+}
+main .thirdSection .infoGrid .firstGrid .firstDiv{
+  width: 100%;
+  display: flex;
+  padding-left: 5%;
+    margin-bottom: 2%;
+  align-items: center;
+  justify-content: left;
+  gap: 1%;
+
+}
+main .thirdSection .infoGrid .firstGrid .firstDiv img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+main .thirdSection .infoGrid .secondGrid{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 13%;
+  justify-content: space-evenly;
+
+}
+main .thirdSection .infoGrid .secondGrid div{
+    width: 40%;
+   
+    height:max-content;
+}
+main .thirdSection .infoGrid .secondGrid .firstDiv{
+  width: 100%;
+  display: flex;
+  padding-left: 5%;
+    margin-bottom: 2%;
+  align-items: center;
+  justify-content: left;
+  gap: 1%;
+
+}
+main .thirdSection .infoGrid .secondGrid .firstDiv img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+main .thirdSection .infoGrid .thirdGrid{
+  width: 100%;
+  height: max-content;
+  display: flex;
+ 
+  align-items: center;
+  gap: 13%;
+  justify-content: space-evenly;
+
+}
+main .thirdSection .infoGrid .thirdGrid div{
+    width: 40%;
+   
+    height:max-content;
+}
+main .thirdSection .infoGrid .thirdGrid .firstDiv{
+  width: 100%;
+  display: flex;
+  padding-left: 2%;
+  align-items: center;
+  margin-bottom: 5%;
+  justify-content: left;
+  gap: 1%;
+
+}
+main .thirdSection .infoGrid .thirdGrid .firstDiv img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
+
+
+
+
+
+main .thirdSection .infoGrid .fourthGrid{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 13%;
+  justify-content: space-evenly;
+
+}
+main .thirdSection .infoGrid .fourthGrid div{
+    width: 40%;
+  
+    height:max-content;
+}
+main .thirdSection .infoGrid .fourthGrid .firstDiv{
+  width: 100%;
+  display: flex;
+  padding-left: 5%;
+  margin-bottom: 2%;
+  align-items: center;
+  justify-content: left;
+  gap: 1%;
+
+}
+main .thirdSection .infoGrid .fourthGrid .firstDiv img{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+
 
 main .fourthSection {
   width: 100%;
@@ -369,7 +502,70 @@ main .fourthSection .helpGrid h4 {
     align-items: center;
     justify-content: center;
   }
+  
 
+main .thirdSection .infoGrid .firstGrid{
+  width: 100%;
+  height: max-content;
+  display: flex;
+  margin: 10% 0px 10% 0px;
+  flex-direction:column ;
+  align-items: center;
+  gap: 13%;
+  justify-content: space-evenly;
+
+}
+main .thirdSection .infoGrid .secondGrid{
+  width: 100%;
+  height: max-content;
+  display: flex;
+   margin: 10% 0px 10% 0px;
+  flex-direction:column ;
+  align-items: center;
+  gap: 13%;
+  justify-content: space-evenly;
+
+}
+
+main .thirdSection .infoGrid .thirdGrid{
+  width: 100%;
+  height: max-content;
+  display: flex;
+   margin: 10% 0px 10% 0px;
+  flex-direction:column ;
+  align-items: center;
+  gap: 13%;
+  justify-content: space-evenly;
+
+}
+main .thirdSection .infoGrid .fourthGrid{
+  width: 100%;
+  height: max-content;
+  display: flex;
+   margin: 10% 0px 10% 0px;
+  flex-direction:column ;
+  align-items: center;
+  gap: 13%;
+  justify-content: space-evenly;
+
+}
+
+main .thirdSection .infoGrid img[alt*="firstVec"]{
+  margin-top: 13%;
+}
+
+main .thirdSection .infoGrid .firstGrid div{
+  width: 100%;
+}
+main .thirdSection .infoGrid .secondGrid div{
+  width: 100%;
+}
+main .thirdSection .infoGrid .thirdGrid div{
+  width: 100%;
+}
+main .thirdSection .infoGrid .fourthGrid div{
+  width: 100%;
+}
   main .thirdSection .secondSvg {
     display: none;
   }
