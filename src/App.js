@@ -8,7 +8,9 @@ import Login from "./pages/authentication/Login";
 import SignUp from "./pages/authentication/SignUp";
 import Home from "./pages/home/Home";
 import PrivacyPolicy from "./pages/privacy/PrivacyPolicy";
-import ContactUs from "./pages/contact/ContactUs";
+import ContactUs from "./pages/contact/ContactUs"; 
+ import Terms from "./pages/terms/Terms";
+
 
 
 function App() {
@@ -34,6 +36,7 @@ function App() {
             <Route path="about" element={<About />} />
             <Route path="privacy-policy" element={<PrivacyPolicy />} />
             <Route path="contact-us" element={<ContactUs />} />
+            <Route path="terms" element={<Terms />} />
           </Route>
           <Route path="login" element={<Login />} />
           <Route path="signup" element={<SignUp />} />

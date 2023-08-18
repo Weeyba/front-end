@@ -58,6 +58,8 @@ main .firstSection .sec {
   width: 100%;
   height: 100%;
   z-index: 6;
+  margin: 0 auto;
+    padding: 0px 5% 0px 5%;
   background-blend-mode: soft-light;
   background-color: rgb(0, 0, 0);
   display: flex;
@@ -158,7 +160,7 @@ main .secondSection .firstSvg {
   width: 500px;
   height: 500px;
   rotate: 45deg;
-  background-color: rgb(1, 56, 1);
+  background-color: darkorange;
   left: -30%;
   border-radius: 10px;
   z-index: 0;
@@ -166,13 +168,17 @@ main .secondSection .firstSvg {
 main .secondSection article {
   width: 80%;
   height: 80%;
+  line-height:200%;
   margin-left: 20%;
+ 
 }
 
 main .secondSection article h1 {
   font-size: 2rem;
   color: darkorange;
   font-weight: 700;
+  margin-left:5%;
+   margin-bottom: 5%;
 }
 
 main .secondSection article h1::first-letter {
@@ -399,7 +405,7 @@ main .fourthSection {
   background-color: white;
 
   display: flex;
-  padding: 0 auto;
+  padding: 5% 0px 5% 0px;
 
   margin: 0px 0px 0px 0px;
   padding: 0 auto;
@@ -428,6 +434,7 @@ main .fourthSection .helpGrid {
 main .fourthSection .helpGrid div {
   width: 40%;
   height: auto;
+  line-height: 200%;
   color: rgb(0, 0, 0);
   padding: 3%;
   border-radius: 10px;
@@ -468,7 +475,7 @@ main .fourthSection .helpGrid h4 {
   }
 
   main .firstSection .firstDiv h1 {
-    font-size: 200%;
+    font-size: 170%;
   }
   main .firstSection .secondDiv {
     display: none;
@@ -497,7 +504,7 @@ main .fourthSection .helpGrid h4 {
   }
   main .thirdSection .infoGrid {
     display: flex;
-    width: 98%;
+    width: 88%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -579,7 +586,7 @@ main .thirdSection .infoGrid .fourthGrid div{
 
   main .fourthSection .helpGrid {
     display: flex;
-    width: 98%;
+    width: 88%;
     flex-direction: column;
     align-items: center;
     justify-content: center;
@@ -587,5 +594,6 @@ main .thirdSection .infoGrid .fourthGrid div{
 
   main .fourthSection .helpGrid div {
     width: 98%;
+    line-height: 180%;
   }
 }

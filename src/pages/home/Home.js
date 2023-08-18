@@ -13,6 +13,7 @@ import secondVec from "../../assets/images/dailyvec.jpg";
 import thirdVec from "../../assets/images/activitiesvec.png";
 import fourthVec from "../../assets/images/welcomevec.png";
 import abstractVid from "../../assets/videos/abstractVid.mp4";
+import who from "../../assets/images/who.png";
 
 export default function Home() {
   const myStyle = {
@@ -35,6 +36,20 @@ export default function Home() {
           </div>
         </section>
       </div>
+
+      <div className="secondSection">
+      <div className="firstSvg"></div>
+
+      <article>
+        <h1> WHAT IS WEEYBA ?</h1>
+        WEEYBA  is an innovation with amazing features created to equip its users with essential digital skills and provides financial opportunities to it's members.
+        <br />        
+        For a user to get signed up and enjoy the benefits on Weeyba, he/she needs to get a one time registration fee of N4,500.
+      </article>
+      <img src={who} alt="who" />
+    </div>
+
+
       <div className="thirdSection">
         <h3>Ways To Earn.</h3>
         <div className="firstSvg"></div>
@@ -47,20 +62,7 @@ export default function Home() {
             <h4>Affiliate Earnings.</h4>
             </div>
             <article>
-            Unlock a world of earning potential with Weeyba's affiliate
-            program. Our platform not only allows you to engage meaningfully
-            and contribute to poverty alleviation but also rewards you for
-            bringing others into the fold. By sharing the Weeyba experience
-            with your network, you can earn a substantial income through our
-            affiliate program. As your referrals actively participate and
-            engage on Weeyba, you'll receive a portion of their earnings,
-            creating a mutually beneficial cycle of engagement and
-            empowerment. Joining our affiliate program means not only
-            transforming lives through online activities but also opening
-            doors to financial growth and stability. Start multiplying your
-            impact today by becoming a Weeyba affiliate and championing a new
-            era of meaningful online engagement
-            <br />
+        
             Our affiliate program – a fantastic avenue to multiply your
             earnings. With our referral bonus, you can earn a remarkable 3500
             Naira for every direct referral. But the impact doesn't stop
@@ -197,12 +199,7 @@ export default function Home() {
               for 200 Naira or spreading the word about Weeyba for 300 Naira,
               each action you take contributes to your earnings and the
               collective impact we're making.
-              <br />
-              So, from performing tasks that matter to inviting friends to join
-              you, every action you take on Weeyba contributes to your financial
-              growth and the larger goal of elevating lives. Welcome to a world
-              where your online presence has real-world significance. Let's
-              earn, engage, and uplift together on Weeyba!
+             
             </article>
           </div>
         </div>
