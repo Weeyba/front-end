@@ -28,6 +28,7 @@
  width: 90%;
  height: 100%;
  padding: 10px;
+ margin: 0 auto;
  flex-wrap: wrap;
  display: flex;
  gap: 20px;
