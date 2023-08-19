@@ -2,7 +2,7 @@
 
 .footer{
  width: 100%;
- height:max-content;
+ height:40vh;
  color: white;
  margin: 0 auto;
  padding: 0px 0px 10px 0px;
@@ -33,22 +33,36 @@
  display: flex;
  gap: 20px;
  flex-direction: row;
- align-items: flex-start;
- justify-content: space-evenly;
+ align-items: flex-end;
+ justify-content: space-between;
 }
 .footer .footGrid div{
  width: 30%;
  height: 80%;
+
  line-height: 200%;
  display: flex;
  flex-wrap: wrap;
  flex-direction: column;
  align-items: left;
  text-align: left;
+}
 
  
+.footer .footGrid img[alt="logo"]{
+  width: 150px;
+  height: auto;
+
+
 
 }
+
+.footer .footGrid .firstGrid{
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+}
+
 
 .footer .footGrid div a{
  color: white;
@@ -64,7 +78,9 @@
 }
 
 @media  screen and (max-width:1100px){
-
+ .footer{
+  height: max-content;
+ }
  .footer .footGrid{
   width: 90%;
   padding: 10px 0px 10px 0px ;
@@ -80,6 +96,7 @@
   width: 90%;
   height: 80%;
   display: flex;
+  flex-wrap: wrap;
   flex-direction: column;
   align-items: left;
   text-align: left;
@@ -87,9 +104,5 @@
   
  
  }
- .footer article{
-  width: 110%;
 
-  margin-left: -5%;
- }
 }
