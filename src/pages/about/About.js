@@ -21,7 +21,7 @@ export default function About() {
     <h1  style={{marginLeft: '4%',
     marginBottom:'10px',
     fontWeight:'bold',
-    fontSize:'300%',
+    fontSize:'250%',
     color:'darkorange',
       }}>What is Weeyba</h1>
     <article>
@@ -54,7 +54,7 @@ export default function About() {
                       textAlign:'center',
                       marginBottom:'10px',
                       fontWeight:'bold',
-                      fontSize:'300%',
+                      fontSize:'250%',
                       color:'darkorange',
                         }}>How It Works???</h1>
 
