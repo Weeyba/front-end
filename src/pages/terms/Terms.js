@@ -4,13 +4,14 @@ export default function terms(){
   return (
     <div style={{
       marginTop: 100,
-      padding:'0% 10% 10% 10%',
+      padding:'0% 5% 0% 5%',
       lineHeight:'200%',
     
     }}>
         <h1  style={{
           textAlign:'center',
           width:'100%',
+          padding:'0',
           marginBottom:'10px',
         }}>Terms And Conditions</h1>
         <article>         

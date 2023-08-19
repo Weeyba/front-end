@@ -92,4 +92,10 @@
  height: max-content;
  line-height: 200%;
 }
+.secondSection h1{
+ font-size: 180%;
+}
+.thirdSection h1{
+ font-size: 180%;
+}
 }
