@@ -30,7 +30,7 @@ export default function Header() {
         </a>
 
         <div className="Links">
-          <a href="/">Home</a>
+          <a href="/home">Home</a>
           <a href="/about">About</a>
           <a href="/contact-us">Contact us</a>
           <a href="/login">Sign in</a>
@@ -79,17 +79,17 @@ export default function Header() {
 
         <MenuListContainer isOpen={isOpen}>
           <MenuListItem onClick={handleToggle}>
-            <a href="#">Home</a>
+            <a href="/home">Home</a>
           </MenuListItem>
           <MenuListItem onClick={handleToggle}>
-            <a href="#">About</a>
+            <a href="/about">About</a>
           </MenuListItem>
           <MenuListItem
             onClick={() => {
               handleToggle();
             }}
           >
-            <a href="#">Contact us</a>
+            <a href="/contact-us">Contact us</a>
           </MenuListItem>
           <MenuListItem
             onClick={() => {
