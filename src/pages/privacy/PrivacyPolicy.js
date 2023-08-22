@@ -3,7 +3,7 @@ import React from 'react'
 export default function PrivacyPolicy() {
   return (
     <div style={{ marginTop: 100,
-      padding:'0% 5% 0% 5%',
+      padding:'0% 6% 0% 6%',
       lineHeight:'230%',
 
               }}>
