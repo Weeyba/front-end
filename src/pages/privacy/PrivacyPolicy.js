@@ -3,7 +3,9 @@ import React from 'react'
 export default function PrivacyPolicy() {
   return (
     <div style={{ marginTop: 100,
-      padding:'0% 6% 0% 6%',
+      padding:'0% 6% 5% 6%',
+      width:'100%',
+      height:'fitContent',
       lineHeight:'230%',
 
               }}>

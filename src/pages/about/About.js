@@ -2,7 +2,7 @@ import React from 'react'
 
 
 
-import "../../../src/pages/about/about.css";
+import "../../pages/about/about.css";
 import meet from "../../assets/images/meet.jpg";
 
 export default function About() {

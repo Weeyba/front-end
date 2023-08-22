@@ -3,8 +3,8 @@
 .main{
  width: 100%;
  height: max-content;
- margin: o auto;
- padding: o auto;
+ margin: 0 auto;
+ padding: 0 auto;
  line-height: 230%;
  font-family: Poppins;
 }

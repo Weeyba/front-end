@@ -38,8 +38,7 @@
 }
 .footer .footGrid div{
  width: 30%;
- height: 80%;
-
+ height: fit-content;
  line-height: 200%;
  display: flex;
  flex-wrap: wrap;
@@ -52,15 +51,22 @@
 .footer .footGrid img[alt="logo"]{
   width: 150px;
   height: auto;
+  
 
 
 
 }
 
-.footer .footGrid .firstGrid{
+
+ .footGrid .firstGrid{
  display: flex;
+ width: 30%;
+
+ flex-wrap: wrap;
+ align-items: left;
+ justify-content: left;
  flex-direction: column;
- gap: 10px;
+ gap: 20px;
 }
 
 
@@ -70,6 +76,32 @@
  width: fit-content;
  font-family: Poppins;
 
+}
+
+.footer .footGrid .thirdGrid a{
+font-size: 150%;
+height: fit-content;
+margin: 0;
+
+
+}
+
+.footer .footGrid .thirdGrid {
+  flex-direction: row;
+  gap: 10px;
+  align-items: left;
+  justify-content: center;
+  flex-wrap: nowrap;
+  word-wrap: break-word;
+
+}
+
+.footer .footGrid .thirdGrid h2{
+ width: fit-content;
+ text-align: left;
+ margin: 0;
+
+ height: fit-content;
 }
 
 
@@ -103,6 +135,11 @@
  
   
  
+ }
+ 
+
+ .footGrid .firstGrid{
+  flex-direction: column;
  }
 
 }
