@@ -33,6 +33,7 @@ export default function Header() {
           <a href="/">Home</a>
           <a href="/about">About</a>
           <a href="/contact-us">Contact us</a>
+          <a href="/get-code">Get code</a>
           <a href="/login">Sign in</a>
           <a href="/SignUp">Sign Up</a>
         </div>
@@ -90,6 +91,13 @@ export default function Header() {
             }}
           >
             <a href="/contact-us">Contact us</a>
+          </MenuListItem>
+          <MenuListItem
+            onClick={() => {
+              handleToggle();
+            }}
+          >
+            <a href="/get-code">Get code</a>
           </MenuListItem>
           <MenuListItem
             onClick={() => {

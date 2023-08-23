@@ -116,8 +116,9 @@ const NavContainer = styled.nav`
 
     a {
       text-decoration: none;
-      color: ${Colors.black};
+      color: ${Colors.neutral_color.color900};
       font-size: 18px;
+      font-weight: 500;
 
       &:hover {
         color: ${Colors.orange_color.color200};

@@ -6,7 +6,7 @@ const AuthContainer = styled.div`
   background-image: url(${BackgroundImage});
   background-size: cover;
   background-position: center;
-  height: 124vh;
+  height: ${props=>props.height? `${props.height}vh` : "100vh"};
   position:relative;
   display: flex;
   align-items: center;

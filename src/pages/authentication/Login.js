@@ -120,7 +120,7 @@ export default function Login() {
                     }}
                   />
 
-                  <a href="#" className="forgotPassword">
+                  <a href="/forgot-password" className="forgotPassword">
                     Forgot password?
                   </a>
                 </div>
