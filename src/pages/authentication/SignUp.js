@@ -172,6 +172,9 @@ export default function SignUp() {
                     value={formikProps.values.phone}
                     type="tel"
                     InputProps={{
+                      min: 11,
+                      max: 11,
+
                       startAdornment: (
                         <InputAdornment position="start">
                           <PhoneIcon />
@@ -199,7 +202,11 @@ export default function SignUp() {
                             onMouseDown={handleMouseDownPassword}
                             edge="end"
                           >
-                            {showConfirmPassword ? <VisibilityOff /> : <Visibility />}
+                            {showConfirmPassword ? (
+                              <VisibilityOff />
+                            ) : (
+                              <Visibility />
+                            )}
                           </IconButton>
                         </InputAdornment>
                       ),

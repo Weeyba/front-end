@@ -105,6 +105,10 @@ export default function ResetPassword() {
                     formikKey="resetCode"
                     value={formikProps.values.resetCode}
                     type="number"
+                    InputProps={{
+                        min: 6,
+                        max: 6
+                    }}
                   />
                   <TextInput
                     id="password"
