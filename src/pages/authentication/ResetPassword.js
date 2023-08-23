@@ -149,7 +149,7 @@ export default function ResetPassword() {
                             onMouseDown={handleMouseDownPassword}
                             edge="end"
                           >
-                            {showPassword ? <VisibilityOff /> : <Visibility />}
+                            {showConfirmPassword ? <VisibilityOff /> : <Visibility />}
                           </IconButton>
                         </InputAdornment>
                       ),

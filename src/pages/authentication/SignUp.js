@@ -199,7 +199,7 @@ export default function SignUp() {
                             onMouseDown={handleMouseDownPassword}
                             edge="end"
                           >
-                            {showPassword ? <VisibilityOff /> : <Visibility />}
+                            {showConfirmPassword ? <VisibilityOff /> : <Visibility />}
                           </IconButton>
                         </InputAdornment>
                       ),
