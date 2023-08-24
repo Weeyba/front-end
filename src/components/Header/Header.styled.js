@@ -52,7 +52,7 @@ const MenuListContainer = styled.ul`
   margin: 0;
    fontWeight:bold;
   position: fixed;
-  top: 92px;
+  top: 90px;
   left: 0;
   width: 100%;
   height: 110vh;

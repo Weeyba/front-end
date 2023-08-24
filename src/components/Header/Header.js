@@ -33,9 +33,9 @@ export default function Header() {
           <a href="/">Home</a>
           <a href="/about">About</a>
           <a href="/contact-us">Contact us</a>
-          <a href="/get-code">Get code</a>
-          <a href="/login">Sign in</a>
-          <a href="/SignUp">Sign Up</a>
+          <a href="/get-code">Coupon Code</a>
+          <a href="/login">LogIn</a>
+          <a href="/SignUp">Create Account</a>
         </div>
 
 
@@ -103,14 +103,18 @@ export default function Header() {
               handleToggle();
             }}
           >
-            <a href="/get-code">Get code</a>
+            <a href="/get-code"><i style={{
+              marginRight:'10px'
+            }} class="fa-solid fa-ticket"></i>Get Coupon Code</a>
           </MenuListItem>
           <MenuListItem
             onClick={() => {
               handleToggle();
             }}
           >
-            <a href="/login">Sign in</a>
+            <a href="/login"><i  style={{
+              marginRight:'10px'
+            }} class="fa-solid fa-right-to-bracket"></i>LogIn</a>
         
           </MenuListItem>
           <MenuListItem

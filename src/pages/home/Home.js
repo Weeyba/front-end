@@ -1,5 +1,11 @@
-import React, { useState, useEffect } from 'react';
 
+
+
+
+
+
+
+import React from 'react';
 
 import logo from "../../../src/assets/images/Logo.png";
 import "../../../src/pages/home/Home.css";
@@ -19,47 +25,19 @@ import who from "../../assets/images/who.png";
 
 
 
+
+
+
+
+
+
+
+
+
 export default function Home() {
   const myStyle = {
     marginTop: "100px",
   };
-  const [isVisible, setIsVisible] = useState(false);
-
-  const handleScroll = () => {
-    const element = document.getElementById('target-element');
-    if (element) {
-      const elementPosition = element.getBoundingClientRect().left;
-      const threshold = window.innerWidth - 100; // Adjust as needed
-      setIsVisible(elementPosition <= threshold);
-    }
-  };
-
-  useEffect(() => {
-    const animatedElement = document.getElementById('target-element');
-
-    const observer = new IntersectionObserver(
-      (entries) => {
-        entries.forEach((entry) => {
-          if (entry.isIntersecting) {
-            entry.target.classList.add('show');
-          } else {
-            entry.target.classList.remove('show');
-          }
-        });
-      },
-      { threshold: 0.4 } // Adjust threshold value as needed
-    );
-
-    if (animatedElement) {
-      observer.observe(animatedElement);
-    }
-
-    return () => {
-      if (animatedElement) {
-        observer.unobserve(animatedElement);
-      }
-    };
-  }, []);
 
 
   return (
@@ -86,7 +64,7 @@ export default function Home() {
       <div className="firstSvg"></div>
 
       <article>
-        <h1 className={`animated-element ${isVisible ? 'show' : ''}`} id="target-element">WHAT IS WEEYBA ?</h1>
+        <h1>WHAT IS WEEYBA ?</h1>
         WEEYBA  is an innovation with amazing features created to equip its users with essential digital skills and provides financial opportunities to it's members.
         <br />        
         For a user to get signed up and enjoy the benefits on Weeyba, he/she needs to get a one time registration fee of N4,500.
