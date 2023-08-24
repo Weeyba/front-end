@@ -87,7 +87,7 @@ const MenuListItem = styled.li`
     &:hover {
       color: ${Colors.orange_color.color200};
       transition: all ease 0.5s;
-      font-size: 20px;
+      
     }
   }
 `;
@@ -129,7 +129,7 @@ const NavContainer = styled.nav`
       &:hover {
         color: ${Colors.orange_color.color200};
         transition: all ease 0.5s;
-        font-size: 20px;
+        
       }
     }
   }
