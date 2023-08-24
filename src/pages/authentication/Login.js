@@ -8,6 +8,7 @@ import { AuthBodyContainer, AuthContainer } from "./auth.styled";
 import styled from "@emotion/styled";
 import { Colors } from "../../components/Colors/Colors";
 import BrandLogo from "../../assets/images/Logo.png"
+import { useNavigate } from "react-router-dom";
 
 const loginSchema = yup.object().shape({
   email: yup.string().required().label("Email").email(),
@@ -29,7 +30,7 @@ export const CustomButton = styled(Button)(({ theme }) => ({
 
 export default function Login() {
   const [showPassword, setShowPassword] = useState(false);
-
+  const navigate = useNavigate();
 
   const handleClickShowPassword = () => {
     setShowPassword((prev) => !prev);
@@ -80,6 +81,7 @@ export default function Login() {
             }}
             onSubmit={async (values, actions) => {
               console.log(values);
+              navigate("/dashboard")
             }}
             validationSchema={loginSchema}
           >

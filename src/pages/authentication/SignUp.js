@@ -174,7 +174,6 @@ export default function SignUp() {
                     InputProps={{
                       min: 11,
                       max: 11,
-
                       startAdornment: (
                         <InputAdornment position="start">
                           <PhoneIcon />

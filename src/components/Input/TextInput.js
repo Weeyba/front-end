@@ -59,7 +59,7 @@ const TextInput = ({
               }`
             : ""
         }
-        
+
         {...rest}
       />
     </FieldWrapper>
