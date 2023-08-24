@@ -52,10 +52,10 @@ const MenuListContainer = styled.ul`
   margin: 0;
    fontWeight:bold;
   position: fixed;
-  top: 100px;
+  top: 92px;
   left: 0;
   width: 100%;
-  height: 100vh;
+  height: 110vh;
   background-color: ${Colors.orange_color.color100};
   transform: translateX(-100%);
   transition: transform 0.3s ease-in-out;
@@ -67,15 +67,21 @@ const MenuListContainer = styled.ul`
     css`
       transform: translateX(0%);
     `}
+    body'{
+      overflow:hidden;
+    '}
 `;
 
 const MenuListItem = styled.li`
-  padding: 10px;
+  padding: 10px 10px 10px 7%;
+  
   color: ${Colors.white};
   a {
     text-decoration: none;
     color: ${Colors.white};
     font-size: 18px;
+    margin:60% 0% 60% 0%;
+    fontFamily:Poppins;    
      fontWeight:bold;
 
     &:hover {
