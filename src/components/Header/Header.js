@@ -103,11 +103,6 @@ export default function Header() {
               handleToggle();
             }}
           >
-<<<<<<< HEAD
-            <a href="/login"><i style={{
-              marginRight:'10px'
-            }} class="fa-solid fa-right-to-bracket"></i>LogIn</a>
-=======
             <a href="/get-code">Get code</a>
           </MenuListItem>
           <MenuListItem
@@ -116,7 +111,6 @@ export default function Header() {
             }}
           >
             <a href="/login">Sign in</a>
->>>>>>> 7da74b889c94aec3064311ae13d98d6c7c0e1028
         
           </MenuListItem>
           <MenuListItem
