@@ -39,6 +39,13 @@ const signUpSchema = yup.object().shape({
     .label("Password")
     .min(17, "Seems a bit short")
     .max(17, "That's a lot"),
+  confirmPassword: yup
+    .string()
+    .required()
+    .label("Confirm Password")
+    .test("passwords-match", "Passwords must match", function (value) {
+      return this.parent.newPassword === value;
+    }),
   couponCode: yup
     .string()
     .required()
@@ -49,6 +56,7 @@ const signUpSchema = yup.object().shape({
 
 export default function SignUp() {
   const [showPassword, setShowPassword] = useState(false);
+  const [showConfirmPassword, setShowConfirmPassword] = useState(false);
   const [checked, setChecked] = useState(false);
 
   const handleChange = (event) => {
@@ -81,7 +89,7 @@ export default function SignUp() {
   };
 
   return (
-    <AuthContainer>
+    <AuthContainer height={170}>
       <p onClick={() => window.history.back()} style={arrowStyle}>
         {" "}
         &#8592;
@@ -106,6 +114,7 @@ export default function SignUp() {
               email: "",
               userName: "",
               password: "",
+              confirmPassword: "",
               phone: "",
               couponCode: "",
               referralCode: "",
@@ -161,8 +170,11 @@ export default function SignUp() {
                     formikProps={formikProps}
                     formikKey="phone"
                     value={formikProps.values.phone}
-                    type="number"
+                    type="tel"
                     InputProps={{
+                      min: 11,
+                      max: 11,
+
                       startAdornment: (
                         <InputAdornment position="start">
                           <PhoneIcon />
@@ -179,6 +191,35 @@ export default function SignUp() {
                     placeholder="*********"
                     value={formikProps.values.password}
                     type={showPassword ? "text" : "password"}
+                    InputProps={{
+                      endAdornment: (
+                        <InputAdornment position="end">
+                          <IconButton
+                            aria-label="toggle password visibility"
+                            onClick={() =>
+                              setShowConfirmPassword((prev) => !prev)
+                            }
+                            onMouseDown={handleMouseDownPassword}
+                            edge="end"
+                          >
+                            {showConfirmPassword ? (
+                              <VisibilityOff />
+                            ) : (
+                              <Visibility />
+                            )}
+                          </IconButton>
+                        </InputAdornment>
+                      ),
+                    }}
+                  />
+                  <TextInput
+                    id="confirmPassword"
+                    label="Confirm Password"
+                    formikProps={formikProps}
+                    formikKey="confirmPassword"
+                    placeholder="*********"
+                    value={formikProps.values.confirmPassword}
+                    type={showConfirmPassword ? "text" : "password"}
                     InputProps={{
                       endAdornment: (
                         <InputAdornment position="end">
@@ -205,7 +246,7 @@ export default function SignUp() {
                     type="text"
                   />
 
-                  <a href="#" className="forgotPassword">
+                  <a href="/get-code" className="forgotPassword">
                     Don't have a code? Get one here
                   </a>
 
@@ -229,8 +270,8 @@ export default function SignUp() {
                     }
                     label={
                       <span>
-                        I agree to the <a href="#">terms</a> and{" "}
-                        <a href="#">privacy policy</a>
+                        I agree to the <a href="/terms">terms</a> and{" "}
+                        <a href="/privacy-policy">privacy policy</a>
                       </span>
                     }
                   />

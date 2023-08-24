@@ -33,6 +33,7 @@ export default function Header() {
           <a href="/">Home</a>
           <a href="/about">About</a>
           <a href="/contact-us">Contact us</a>
+          <a href="/get-code">Get code</a>
           <a href="/login">Sign in</a>
           <a href="/SignUp">Sign Up</a>
         </div>
@@ -102,9 +103,20 @@ export default function Header() {
               handleToggle();
             }}
           >
+<<<<<<< HEAD
             <a href="/login"><i style={{
               marginRight:'10px'
             }} class="fa-solid fa-right-to-bracket"></i>LogIn</a>
+=======
+            <a href="/get-code">Get code</a>
+          </MenuListItem>
+          <MenuListItem
+            onClick={() => {
+              handleToggle();
+            }}
+          >
+            <a href="/login">Sign in</a>
+>>>>>>> 7da74b889c94aec3064311ae13d98d6c7c0e1028
         
           </MenuListItem>
           <MenuListItem
