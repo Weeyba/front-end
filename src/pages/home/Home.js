@@ -1,4 +1,12 @@
-import React from "react";
+
+
+
+
+
+
+
+import React from 'react';
+
 import logo from "../../../src/assets/images/Logo.png";
 import "../../../src/pages/home/Home.css";
 import activity from "../../assets/images/activity.png";
@@ -15,10 +23,23 @@ import fourthVec from "../../assets/images/welcomevec.png";
 import abstractVid from "../../assets/videos/abstractVid.mp4";
 import who from "../../assets/images/who.png";
 
+
+
+
+
+
+
+
+
+
+
+
 export default function Home() {
   const myStyle = {
     marginTop: "100px",
   };
+
+
   return (
     <main>
       <div className="firstSection">
@@ -32,16 +53,18 @@ export default function Home() {
 
             <h1>Earn as you Engage...</h1>
             <p>Invite Friends and Earn</p>
-            <h2>Get Started &#8594; </h2>
+            <h2><a href="/SignUp" style={{
+              color:'white', textDecoration:'none'
+            }}>Get Started &#8594;</a></h2>
           </div>
         </section>
       </div>
 
-      <div className="secondSection">
+      <div  className="secondSection">
       <div className="firstSvg"></div>
 
       <article>
-        <h1> WHAT IS WEEYBA ?</h1>
+        <h1>WHAT IS WEEYBA ?</h1>
         WEEYBA  is an innovation with amazing features created to equip its users with essential digital skills and provides financial opportunities to it's members.
         <br />        
         For a user to get signed up and enjoy the benefits on Weeyba, he/she needs to get a one time registration fee of N4,500.
@@ -204,6 +227,8 @@ export default function Home() {
           </div>
         </div>
       </div>
+     
     </main>
   );
+  
 }

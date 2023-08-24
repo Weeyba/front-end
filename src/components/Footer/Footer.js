@@ -24,10 +24,11 @@ export default function Footer() {
         <div className="thirdGrid">
       <h2>Contact Us:</h2>
         <a href="https://wa.me/message/CKAN5VOTKC76I1"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="contact@weeyba.com"><i class="fa-regular fa-envelope"></i></a>
+        <a href="mailto:contact@weeyba.com"><i class="fa-regular fa-envelope"></i></a>
         <a href="https://instagram.com/weeyba_official?igshid=NjIwNzIyMDk2Mg=="><i class="fa-brands fa-instagram"></i></a>
        <a href="https://www.tiktok.com/@weeyba_official?_t=8f3TkzmUyJC&_r=1"><i class="fa-brands fa-tiktok"></i></a>
         <a href="https://t.me/weeyba_official"><i class="fa-brands fa-telegram"></i></a>
+        
         </div>
       </div>
       <hr />

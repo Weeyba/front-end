@@ -33,9 +33,9 @@ export default function Header() {
           <a href="/">Home</a>
           <a href="/about">About</a>
           <a href="/contact-us">Contact us</a>
-          <a href="/get-code">Get code</a>
-          <a href="/login">Sign in</a>
-          <a href="/SignUp">Sign Up</a>
+          <a href="/get-code">Coupon Code</a>
+          <a href="/login">LogIn</a>
+          <a href="/SignUp">Create Account</a>
         </div>
 
 
@@ -80,31 +80,41 @@ export default function Header() {
 
         <MenuListContainer isOpen={isOpen}>
           <MenuListItem onClick={handleToggle}>
-            <a href="/">Home</a>
+            <a href="/"><i style={{
+              marginRight:'10px'
+            }} class="fa-solid fa-house"></i>Home</a>
           </MenuListItem>
           <MenuListItem onClick={handleToggle}>
-            <a href="/about">About</a>
+            <a href="/about"><i style={{
+              marginRight:'10px'
+            }} class="fa-solid fa-user"></i>About</a>
           </MenuListItem>
           <MenuListItem
             onClick={() => {
               handleToggle();
             }}
           >
-            <a href="/contact-us">Contact us</a>
+            <a href="/contact-us"><i style={{
+              marginRight:'10px'
+            }} class="fa-solid fa-phone"></i>Contact us</a>
           </MenuListItem>
           <MenuListItem
             onClick={() => {
               handleToggle();
             }}
           >
-            <a href="/get-code">Get code</a>
+            <a href="/get-code"><i style={{
+              marginRight:'10px'
+            }} class="fa-solid fa-ticket"></i>Get Coupon Code</a>
           </MenuListItem>
           <MenuListItem
             onClick={() => {
               handleToggle();
             }}
           >
-            <a href="/login">Sign in</a>
+            <a href="/login"><i  style={{
+              marginRight:'10px'
+            }} class="fa-solid fa-right-to-bracket"></i>LogIn</a>
         
           </MenuListItem>
           <MenuListItem
@@ -112,7 +122,9 @@ export default function Header() {
             handleToggle();
           }}
         >
-          <a href="/SignUp">Sign up</a>
+          <a href="/SignUp"><i style={{
+            marginRight:'10px'
+          }} class="fa-solid fa-user-plus"></i>Create Account</a>
         </MenuListItem>
         </MenuListContainer>
       </NavContainer>
