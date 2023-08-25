@@ -2,7 +2,6 @@ import { HelmetProvider } from "react-helmet-async";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import { ToastContainer } from "react-toastify";
 import 'react-toastify/dist/ReactToastify.css';
-import "./App.css";
 import DashboardLayout from "./components/Layouts/DashboardLayout";
 import HomeLayout from "./components/Layouts/HomeLayout";
 import About from "./pages/about/About";

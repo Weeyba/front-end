@@ -53,7 +53,7 @@ export default function Home() {
 
             <h1>Earn as you Engage...</h1>
             <p>Invite Friends and Earn</p>
-            <h2><a href="/SignUp" style={{
+            <h2><a href="/signup" style={{
               color:'white', textDecoration:'none'
             }}>Get Started &#8594;</a></h2>
           </div>

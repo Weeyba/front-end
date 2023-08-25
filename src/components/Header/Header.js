@@ -35,7 +35,7 @@ export default function Header() {
           <a href="/contact-us">Contact us</a>
           <a href="/get-code">Coupon Code</a>
           <a href="/login">LogIn</a>
-          <a href="/SignUp">Create Account</a>
+          <a href="/signup">Create Account</a>
         </div>
 
 
@@ -96,7 +96,7 @@ export default function Header() {
           >
             <a href="/contact-us"><i style={{
               marginRight:'10px'
-            }} class="fa-solid fa-phone"></i>Contact us</a>
+            }} class="fa-solid fa-phone"></i>Contact Us</a>
           </MenuListItem>
           <MenuListItem
             onClick={() => {
@@ -114,7 +114,7 @@ export default function Header() {
           >
             <a href="/login"><i  style={{
               marginRight:'10px'
-            }} class="fa-solid fa-right-to-bracket"></i>LogIn</a>
+            }} class="fa-solid fa-right-to-bracket"></i>Log-In</a>
         
           </MenuListItem>
           <MenuListItem
@@ -122,7 +122,7 @@ export default function Header() {
             handleToggle();
           }}
         >
-          <a href="/SignUp"><i style={{
+          <a href="/signup"><i style={{
             marginRight:'10px'
           }} class="fa-solid fa-user-plus"></i>Create Account</a>
         </MenuListItem>
