@@ -29,13 +29,31 @@ export default function Header() {
           />
         </a>
 
-        <div className="Links">
+        <div className="Links" style={{
+          alignItems:'center',
+          justifyContent:'center',
+        }}>
           <a href="/">Home</a>
           <a href="/about">About</a>
           <a href="/contact-us">Contact us</a>
           <a href="/get-code">Coupon Code</a>
-          <a href="/login">LogIn</a>
-          <a href="/signup">Create Account</a>
+          <a href="/login"  style={{
+            backgroundColor:'orange',
+            color:'white',
+            padding:'10px 20px 10px 20px',
+             borderRadius: '10px',
+             background: 'linear-gradient(45deg, orange, green)',
+            
+            
+          }}>LogIn</a>
+          <a href="/signup" style={{
+            backgroundColor:'orange',
+            color:'white',
+            padding:'10px 20px 10px 20px',
+             borderRadius: '10px',
+             background: 'linear-gradient(45deg, green, orange)',
+            
+          }}>Create Account</a>
         </div>
 
 

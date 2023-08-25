@@ -80,9 +80,11 @@ const MenuListItem = styled.li`
     text-decoration: none;
     color: ${Colors.white};
     font-size: 18px;
+    font-weight:bolder;
     margin:60% 0% 60% 0%;
     fontFamily:Poppins;    
      fontWeight:bold;
+  
 
     &:hover {
       color: ${Colors.orange_color.color200};

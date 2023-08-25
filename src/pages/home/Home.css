@@ -14,7 +14,7 @@
 }
 
 main {
-  margin: 100px 0px 0px 0px;
+  margin: 90px 0px 0px 0px;
   padding: 0 auto;
   overflow: hidden;
   font-family: Poppins;
@@ -114,12 +114,12 @@ main .firstSection .firstDiv h1 {
 main .firstSection .firstDiv h2 {
   width: max-content;
   height: max-content;
-  padding: 10px;
+  padding: 10px 20px 10px 20px;
   margin-top: 10px;
-  border-radius: 15px;
-  background-color: orange;
+  border-radius: 10px;
+  background:linear-gradient(to right, orange, green);
   color: white;
-  font-size: 100%;
+  font-size: 130%;
 }
 
 main .firstSection .firstDiv img {
