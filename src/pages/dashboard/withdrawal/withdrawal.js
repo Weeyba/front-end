@@ -15,7 +15,7 @@ export default function withdrawal() {
 
   return (
    <Main>
-   <h1> Earnings withdrawal Portal</h1>
+   <h1> withdrawal Portal</h1>
    
     <form >
     

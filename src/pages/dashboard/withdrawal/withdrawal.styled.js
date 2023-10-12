@@ -32,7 +32,7 @@ form{
  justify-content:center;
 }
 input{
- height:30px;
+ height:50px;
  width:100%;
  border: none;
  padding:0px 10px 0px 10px;
@@ -44,7 +44,7 @@ input{
  margin:0px 0px 10px 0px 
 
 }
-select{
+option, select{
  width:50%;
  hieght:50px;
  font-size:110%;
