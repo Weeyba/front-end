@@ -1,0 +1,6 @@
+{
+ "editor.fontFamily": "Cascadia Mono",
+ "files.autoSave": "afterDelay",
+ "editor.fontSize": 13,
+ "editor.foldingImportsByDefault": true
+}

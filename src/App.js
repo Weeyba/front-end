@@ -15,7 +15,8 @@ import GetCode from "./pages/getcode/GetCode";
 import Home from "./pages/home/Home";
 import PrivacyPolicy from "./pages/privacy/PrivacyPolicy";
 import Terms from "./pages/terms/Terms";
-
+import Settings from "./pages/dashboard/settings/settings.js";
+import Withdrawal from "./pages/dashboard/withdrawal/withdrawal.js";
 function App() {
   return (
     <HelmetProvider>
@@ -49,6 +50,8 @@ function App() {
           {/* Dashboard */}
           <Route path="/dashboard" element={<DashboardLayout />}>
             <Route index element={<Dashboard />} />
+            <Route path="settings" element={<Settings />} />
+          <Route path="withdrawal" element={<Withdrawal />} />
           </Route>
         </Routes>
       </BrowserRouter>

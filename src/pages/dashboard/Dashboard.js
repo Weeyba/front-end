@@ -33,6 +33,12 @@ export default function Dashboard() {
       url: "#",
       icon: <i className="fa fa-list" aria-hidden="true"></i>,
     },
+    {
+      id: 4,
+      name: "Settings",
+      url: "#",
+      icon: <i className="fa fa-money" aria-hidden="true"></i>,
+    },
   ];
 
   useEffect(() => {

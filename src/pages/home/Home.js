@@ -1,12 +1,5 @@
 
-
-
-
-
-
-
 import React from 'react';
-
 import logo from "../../../src/assets/images/Logo.png";
 import "../../../src/pages/home/Home.css";
 import activity from "../../assets/images/activity.png";
@@ -22,17 +15,6 @@ import thirdVec from "../../assets/images/activitiesvec.png";
 import fourthVec from "../../assets/images/welcomevec.png";
 import abstractVid from "../../assets/videos/abstractVid.mp4";
 import who from "../../assets/images/who.png";
-
-
-
-
-
-
-
-
-
-
-
 
 export default function Home() {
   const myStyle = {
