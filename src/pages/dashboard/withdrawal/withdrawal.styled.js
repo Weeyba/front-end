@@ -45,7 +45,7 @@ input{
 
 }
 option, select{
- width:50%;
+ width:100%;
  hieght:50px;
  font-size:110%;
  outline:none;

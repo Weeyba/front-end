@@ -15,18 +15,10 @@ export default function withdrawal() {
 
   return (
    <Main>
-   <h1> withdrawal Portal</h1>
+   <h1> Withdrawal Portal</h1>
    
     <form >
     
-
-    <p>User Name</p>
-    <input type="text" placeholder="Eg. joe357" />
-
- 
-    <p>Email</p>
-    <input type="email" placeholder="Eg. weeyba@gmail.com" />
-
     <label for="Withdrawal">Withdrawal For:</label>
     <select id="dropdown" name="dropdown">
       <option value="option1">Choose an option:</option>
