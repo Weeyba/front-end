@@ -20,7 +20,7 @@ font-family:Poppins;
 
 margin:100px 0px 0px 0px;
 width:100%;
-height:max-content;
+height:90vh;
 
 form{
  display:flex;
@@ -45,11 +45,16 @@ input{
 
 }
 option, select{
+ height:50px;
  width:100%;
- hieght:50px;
- font-size:110%;
+ border: none;
+ padding:0px 10px 0px 10px;
+ border-bottom: 2px solid #FF7C00; 
  outline:none;
- border:none;
+ border-radius:5px;
+ font-size:120%;
+ font-family:Poppins;
+ margin:0px 0px 10px 0px 
 }
 p{
  margin:10px 0px 0px 0px
